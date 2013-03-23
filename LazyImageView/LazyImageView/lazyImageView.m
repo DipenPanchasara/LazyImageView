@@ -19,7 +19,7 @@
         // Initialization code
         
         // Initially set Placeholder Image
-        [self setImage:[UIImage imageNamed:@"placeholder.jpg"]];
+        [self setImage:[UIImage imageNamed:@"placeholder"]];
     }
     return self;
 }

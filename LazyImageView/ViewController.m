@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "lazyImageView.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    // Create a Lazy ImageView and Add it to your View
+    
+    lazyImageView *imgView = [[lazyImageView alloc] initWithFrame:CGRectMake(20, 20, 200, 200)];
+    [imgView setImageWithURL:@"http://www.google.co.in/intl/en_com/images/srpr/logo1w.png"];
+
+    [imgView setUserInteractionEnabled:YES];
+    [self.view addSubview:imgView];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

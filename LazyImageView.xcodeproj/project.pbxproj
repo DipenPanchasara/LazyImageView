@@ -18,6 +18,8 @@
 		EC15E91116FE2C2C00177CB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC15E91016FE2C2C00177CB8 /* Default-568h@2x.png */; };
 		EC15E91416FE2C2C00177CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC15E91316FE2C2C00177CB8 /* ViewController.m */; };
 		EC15E91716FE2C2C00177CB8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC15E91516FE2C2C00177CB8 /* ViewController.xib */; };
+		EC15E92016FE2C6100177CB8 /* lazyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC15E91F16FE2C6100177CB8 /* lazyImageView.m */; };
+		EC15E92216FE2D3800177CB8 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = EC15E92116FE2D3800177CB8 /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		EC15E91216FE2C2C00177CB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EC15E91316FE2C2C00177CB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC15E91616FE2C2C00177CB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EC15E91E16FE2C6100177CB8 /* lazyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lazyImageView.h; sourceTree = "<group>"; };
+		EC15E91F16FE2C6100177CB8 /* lazyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lazyImageView.m; sourceTree = "<group>"; };
+		EC15E92116FE2D3800177CB8 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,8 @@
 		EC15E90016FE2C2C00177CB8 /* LazyImageView */ = {
 			isa = PBXGroup;
 			children = (
+				EC15E92116FE2D3800177CB8 /* placeholder.png */,
+				EC15E91D16FE2C6100177CB8 /* LazyImageView */,
 				EC15E90916FE2C2C00177CB8 /* AppDelegate.h */,
 				EC15E90A16FE2C2C00177CB8 /* AppDelegate.m */,
 				EC15E91216FE2C2C00177CB8 /* ViewController.h */,
@@ -105,6 +112,15 @@
 				EC15E91016FE2C2C00177CB8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC15E91D16FE2C6100177CB8 /* LazyImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EC15E91E16FE2C6100177CB8 /* lazyImageView.h */,
+				EC15E91F16FE2C6100177CB8 /* lazyImageView.m */,
+			);
+			path = LazyImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +179,7 @@
 				EC15E90F16FE2C2C00177CB8 /* Default@2x.png in Resources */,
 				EC15E91116FE2C2C00177CB8 /* Default-568h@2x.png in Resources */,
 				EC15E91716FE2C2C00177CB8 /* ViewController.xib in Resources */,
+				EC15E92216FE2D3800177CB8 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				EC15E90716FE2C2C00177CB8 /* main.m in Sources */,
 				EC15E90B16FE2C2C00177CB8 /* AppDelegate.m in Sources */,
 				EC15E91416FE2C2C00177CB8 /* ViewController.m in Sources */,
+				EC15E92016FE2C6100177CB8 /* lazyImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
